@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-family: "Georgia", serif;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 15px 0;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  transition: 0.3s;
+
+  height: 50px;
+  width: 50px;
+  background-color: #2f6d2f;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+nav a:nth-child(odd) {
+  background-color: rgba(220, 121, 178);
+}
+
+nav a:hover {
+  opacity: 0.6;
+}
+
+nav a.active {
+  box-shadow: 0 0 25px rgba(182, 48, 135, 0.9);
+  transform: scale(1);
+}
+
+main {
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+
+.pink {
+  background-color: #f6d5e1;
+  color: #2f6d2f;
+}
+
+.green {
+  background-color: #c7d8b6;
+  color: #2f6d2f;
+}
+
+.about {
+  background-color: #f7bde3;
+  color: #2f6d2f;
+}
+
+.pink nav {
+  background-color: rgba(230, 193, 207, 0.6);
+}
+
+.green nav {
+  background-color: rgba(199, 216, 182, 0.6);
+}
+
+.about {
+  font-family: 'Beau Rivage', cursive;
+  color: #2f6d2f;
+}
+
+.about p {
+  font-family: 'Georgia', serif;
+}
+
+.about-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 100px 20px;
+  line-height: 1.6;
+}
+
+h1 {
+  font-size: 48px;
+  font-style: italic;
+  margin: 0;
+}
+
+p {
+  font-size: 16px;
+}
