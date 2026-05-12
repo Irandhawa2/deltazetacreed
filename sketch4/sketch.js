@@ -31,13 +31,13 @@ function draw() {
 let change = map(sin(t), -1, 1, 200, 255);
 fill(395,change, 435);
 
-textSize(65);
+textSize(70);
 text("Faith", width / 2, height / 2);
   
   textAlign(CENTER);
   textFont('georgia');
   textSize(15);
-  fill('#29C22F5');
+  fill('#437043');
   text("click the screen", width / 2, height - 15);
   
 }

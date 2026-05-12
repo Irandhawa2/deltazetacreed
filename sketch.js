@@ -21,7 +21,7 @@ function draw() {
   rect(0, 0, width, height);
 
   textFont('Beau Rivage');
-  textSize(50);
+  textSize(70);
   textAlign(CENTER);
   fill(46, 117, 46, a);
   text("To my mind", width / 2, height / 2);

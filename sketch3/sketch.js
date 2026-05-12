@@ -21,7 +21,7 @@ function draw() {
   rect(0, 0, width, height);
 
   textFont('Beau Rivage');
-  textSize(50);
+  textSize(70);
   textAlign(CENTER);
   fill(46, 117, 46, a);
   text("To myself", width / 2, height / 2);
@@ -45,7 +45,6 @@ for (let i = 0; i < myself.length; i++) {
   textSize(45);
   text("myself", myself[i].x, myself[i].y);
 }
-  // fade logic (fixed)
   a = a + fade;
 
   if (a > 255) {
