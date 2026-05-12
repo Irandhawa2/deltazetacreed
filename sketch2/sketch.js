@@ -61,20 +61,21 @@ function draw() {
 
   
   if (showHint) {
-     textAlign(CENTER);
-     textFont('georgia');
+    let pad = 40;
+    textAlign(CENTER);
+    textFont('Montserrat Alternates');
     textSize(15);
     fill('#437043');
-    text("click growth", width / 2, height - 40);
+    text("click growth", width / 2, height - pad);
   }
 
   
 
-  // reset
+  
   if (size > 120) {
     size = 0;
     rosesStarted = false;
-    showHint = true; // reset hint too
+    showHint = true; 
 
     for (let rose of roses) {
       rose.size = 0;
@@ -87,7 +88,7 @@ function mousePressed() {
 
   if (d < 120) {
     rosesStarted = true;
-    showHint = false; // hide text when clicked
+    showHint = false; 
   }
 }
 //prompt to claude: how do i make the roses disappear when the text disappears

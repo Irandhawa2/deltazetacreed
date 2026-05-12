@@ -69,6 +69,12 @@ main {
   color: #2f6d2f;
 }
 
+.crest {
+  width: 200px;  
+  display: block;
+  margin: 5px auto;
+}
+
 .about {
   background-color: #f7bde3;
   color: #2f6d2f;
@@ -88,7 +94,7 @@ main {
 }
 
 .about p {
-  font-family: 'Georgia', serif;
+  font-family: "Montserrat Alternates", sans-serif;
 }
 
 .about-container {
@@ -99,7 +105,7 @@ main {
 }
 
 h1 {
-  font-size: 48px;
+  font-size: 68px;
   font-style: italic;
   margin: 0;
 }

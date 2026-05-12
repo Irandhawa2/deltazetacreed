@@ -33,12 +33,12 @@ fill(395,change, 435);
 
 textSize(70);
 text("Faith", width / 2, height / 2);
-  
+  let pad = 40;
   textAlign(CENTER);
-  textFont('georgia');
+  textFont('Montserrat Alternates');
   textSize(15);
   fill('#437043');
-  text("click the screen", width / 2, height - 15);
+  text("click the screen", width / 2, height - pad);
   
 }
 

@@ -20,6 +20,7 @@ function draw() {
   fill(bgColor, 20);
   rect(0, 0, width, height);
 
+  let pad = 40;
   textFont('Beau Rivage');
   textSize(70);
   textAlign(CENTER);
@@ -27,10 +28,10 @@ function draw() {
   text("To myself", width / 2, height / 2);
 
   textAlign(CENTER);
-  textFont('georgia');
+  textFont('Montserrat Alternates');
   textSize(15);
-  fill(242, 85, 85, a); // same color, but with alpha
-  text("click myself", width / 2, height - 15);
+  fill(242, 85, 85, a); 
+  text("click myself", width / 2, height - pad);
 
   rCol = randomCol[floor(random(randomCol.length))];
 
